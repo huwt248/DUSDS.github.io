@@ -1,0 +1,253 @@
+<html>
+<head>
+<style>
+	iframe#gform {
+		margin-top: 7%;
+		position: fixed;
+		display: inline-block;
+		left: 2%;
+	}
+	
+	
+	h2{
+		text-align: center;
+		}
+		
+	body{
+		font-family: "Verdana";
+		color: #00004d;
+		background-color:#ecf2f8;
+		}
+	
+	refreshButton{
+		border-radius: 8px;
+		}
+		
+	.header {
+		width:45%;
+		margin-top:0%;
+		position:fixed;
+		float: left;
+		display:block;
+	}
+	
+	.header img{
+		float:left;
+		background-color: transparent;
+		display:block;
+		}
+		
+	.header h1 {
+		position:relative;
+		display:block;
+		margin:0px;
+		text-align:center;
+		}
+		
+	div#results {
+		display:inline-block;
+		margin-top:1%;
+		margin-left:47%;
+		}
+	
+	th:first-child {
+		width: 20%;
+		}
+	
+	th {
+		height: 45px;
+		width: 40%;
+		border: 2px solid #294e70;
+		}	
+	td {
+		border: 2px solid #294e70;
+		padding: 20px;
+		background-color:e6e6e6;
+		height:80px;
+		text-align: center;
+		}
+	
+	table#t01 {
+		width: 100%;
+
+		border:none;
+		border-collapse: collapse;
+		display: block;
+		padding: 0px;
+		}
+		
+	table tr:first-child th {
+		border-top: 0;
+		}
+	table tr:first-child th:first-child {
+		border-left: 0;
+		}
+	table tr:first-child th:last-child {
+		border-right:0;
+		}
+		
+	table.containertable {
+		padding: 0px;
+		width:100%;
+		}
+	td.outercontainer {
+		padding: 0px;}
+		
+	td.spaces {
+		border: none;
+		padding: 5px;
+		width:10%;
+		float: left;
+		
+		margin-right:0px;
+		margin-top: 15%;
+
+		font-size: 15px;
+		color: red;
+		display: block;
+	}
+	
+	td.bordercell {
+		background-color: #538cc6;
+		}
+		
+	th.bordercell {
+		background-color: #538cc6;
+		}
+
+	td.namedata {
+		border: none;
+		font-size: 20px;
+		width: 90%;
+		padding: 2px;
+		}
+	
+	tr:first-child th:first-child { 
+		border-radius: 10px 0 0 0; 
+		}
+		
+	tr:first-child th:last-child { 
+		border-radius: 0 10px 0 0; 
+		}
+		
+	div#instruction{
+		font-size: 13px;
+		width: 53%;
+		margin-left: 45%;
+		text-align:justify;
+		}
+
+</style>
+</head>
+
+<body>
+<div class="header">
+<img src="http://i.imgur.com/P3dZPth.png" title="source: imgur.com" style="width:150px;height:100px;"/>
+<h1>DUSDS Open Water Course Pool Session Signup Form</h1>
+</div>
+
+<div class="box">
+<iframe id="gform" src="https://docs.google.com/forms/d/e/1FAIpQLSfkPMb1xoBw5dB6g4RbO8TdMlwSJVRIUzsCB-6gE9bpTuCDUw/viewform?embedded=true;headers=false&chrome=false" width="40%" height="530" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF" scrolling="no" >Loading...</iframe>
+</div>
+<div id="results">
+
+
+<table id ="t01">
+<tr>
+<th class="bordercell">
+<div class="refreshButton">
+<input type="button" value="Refresh" onClick="window.location.reload()">
+</div></th>
+<th class="bordercell"><b>20:00 - 21:00</b></th><th class="bordercell"><b>21:00 - 22:00</b></th></tr>
+<tr><td class="bordercell"><b>Extra-Small</b></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="eightxs" class="namedata"></td>
+<td id="cesx" class="spaces" ></td>
+</table></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="ninexs" class="namedata"></td>
+<td id="cnsx" class="spaces" ></td>
+</table></td></tr>
+
+<tr><td class="bordercell"><b>Small</b></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="eights" class="namedata"></td>
+<td id="ces" class="spaces" ></td>
+</table></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="nines" class="namedata"></td>
+<td id="cns" class="spaces" ></td>
+</table></td></tr>
+
+<tr><td class="bordercell"><b>Medium</b></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="eightm" class="namedata"></td>
+<td id="cem" class="spaces" ></td>
+</table></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="ninem" class="namedata"></td>
+<td id="cnm" class="spaces" ></td>
+</table></td></tr>
+
+<tr><td class="bordercell"><b>Large</b></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="eightl" class="namedata"></td>
+<td id="cel" class="spaces" ></td>
+</table></td>
+<td class="outercontainer"><table class="containertable"><tr>
+<td id="ninel" class="namedata"></td>
+<td id="cnl" class="spaces" ></td>
+</table></td></tr>
+</table>
+</div>
+
+<div id="instruction">
+<p><br><b>Instructions for use: </b><br><br>
+The table on the right shows the number of people currently signed up for each session under the BCD size they are using. 
+The number in red in the top right corner of each cell indicates the number of remaining spaces in a particular session for that sized BCD.
+<br>To sign up, please enter your name, choose your preferred session time and BCD size in the form on the left, then click Submit. 
+Once the confirmation message has appeared, you can refresh the page, and your name should appear in the relevant cell in the table.
+If it hasn't appeared, wait a few seconds and press refresh again, it can sometimes take up to a minute for your name to appear.
+If it still hasn't appeared, check that the session isn't already full (there will be a 0 in the top corner).
+<br><br>
+Signup will close at 3pm on the day of the pool session so make sure you have signed up before then. If you sign up and later realise that you can't 
+attend the session, or have signed up for the wrong session, please send us a message and we will remove you from the list. Failure to contact us
+will prevent someone else from attending.
+<br>Full Terms and Conditions are available here.
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+function getData() {
+	//names Spreadsheet
+	var spreadsheetID = "1yr2ksHLh_SAdy3b_yQs9mbMneyj5mVbUCzvoIfVtoyU";
+	var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+	$(document).ready(function(){
+		$.getJSON(url,function(data){
+			var entry = data.feed.entry;
+			$(entry).each(function(){
+			$('#eightxs').append(this.gsx$exs.$t+'</br>');
+			$('#cesx').append(this.gsx$sexs.$t);
+			$('#ninexs').append(this.gsx$nxs.$t+'</br>');
+			$('#cnsx').append(this.gsx$snxs.$t);
+			$('#eights').append(this.gsx$es.$t+'</br>');
+			$('#ces').append(this.gsx$ses.$t);
+			$('#nines').append(this.gsx$ns.$t+'</br>');
+			$('#cns').append(this.gsx$sns.$t);
+			$('#eightm').append(this.gsx$em.$t+'</br>');
+			$('#cem').append(this.gsx$sem.$t);
+			$('#ninem').append(this.gsx$nm.$t+'</br>');
+			$('#cnm').append(this.gsx$snm.$t);
+			$('#eightl').append(this.gsx$el.$t+'</br>');
+			$('#cel').append(this.gsx$sel.$t);
+			$('#ninel').append(this.gsx$nl.$t+'</br>');
+			$('#cnl').append(this.gsx$snl.$t);
+			})
+		})
+	})
+
+};
+getData()
+</script>
+</body>
+</html>
