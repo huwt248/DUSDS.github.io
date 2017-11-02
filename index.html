@@ -204,15 +204,13 @@
 <div id="instruction">
 <p><br><b>Instructions for use: </b><br><br>
 The table on the right shows the number of people currently signed up for each session under the BCD size they are using. 
-The number in red in the top right corner of each cell indicates the number of remaining spaces in a particular session for that sized BCD.
 <br>To sign up, please enter your name, choose your preferred session time and BCD size in the form on the left, then click Submit. 
 Once the confirmation message has appeared, you can refresh the page, and your name should appear in the relevant cell in the table.
 If it hasn't appeared, wait a few seconds and press refresh again, it can sometimes take up to a minute for your name to appear.
-If it still hasn't appeared, check that the session isn't already full (there will be a 0 in the top corner).
+
 <br><br>
 Signup will close at 3pm on the day of the pool session so make sure you have signed up before then. If you sign up and later realise that you can't 
-attend the session, or have signed up for the wrong session, please send us a message and we will remove you from the list. Failure to contact us
-will prevent someone else from attending.
+attend the session, or have signed up for the wrong session, please send us a message and we will remove you from the list. 
 <br>Full Terms and Conditions are available here.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -227,21 +225,21 @@ function getData() {
 			var entry = data.feed.entry;
 			$(entry).each(function(){
 			$('#eightxs').append(this.gsx$exs.$t+'</br>');
-			$('#cesx').append(this.gsx$sexs.$t);
+			//$('#cesx').append(this.gsx$sexs.$t);
 			$('#ninexs').append(this.gsx$nxs.$t+'</br>');
-			$('#cnsx').append(this.gsx$snxs.$t);
+			//$('#cnsx').append(this.gsx$snxs.$t);
 			$('#eights').append(this.gsx$es.$t+'</br>');
-			$('#ces').append(this.gsx$ses.$t);
+			//$('#ces').append(this.gsx$ses.$t);
 			$('#nines').append(this.gsx$ns.$t+'</br>');
-			$('#cns').append(this.gsx$sns.$t);
+			//$('#cns').append(this.gsx$sns.$t);
 			$('#eightm').append(this.gsx$em.$t+'</br>');
-			$('#cem').append(this.gsx$sem.$t);
+			//$('#cem').append(this.gsx$sem.$t);
 			$('#ninem').append(this.gsx$nm.$t+'</br>');
-			$('#cnm').append(this.gsx$snm.$t);
+			//$('#cnm').append(this.gsx$snm.$t);
 			$('#eightl').append(this.gsx$el.$t+'</br>');
-			$('#cel').append(this.gsx$sel.$t);
+			//$('#cel').append(this.gsx$sel.$t);
 			$('#ninel').append(this.gsx$nl.$t+'</br>');
-			$('#cnl').append(this.gsx$snl.$t);
+			//$('#cnl').append(this.gsx$snl.$t);
 			})
 		})
 	})
